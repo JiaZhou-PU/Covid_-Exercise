@@ -2,8 +2,10 @@
 Data Science Exercise with data from [Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 
 ## System Requirements
+Require  Python3.6+
+
 ```shell
-$ pip install pyecharts json requests pandas -U
+$ pip install pyecharts requests pandas numpy -U
 
 ```
     
