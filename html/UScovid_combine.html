@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>US Covid Map（Combined）</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/USA.js"></script>
+
+</head>
+<body>
+    <div id="3cf870837c994704acfa9a56d1939189" class="chart-container" style="width:1600px; height:800px;"></div>
+    <script>
+        var chart_3cf870837c994704acfa9a56d1939189 = echarts.init(
+            document.getElementById('3cf870837c994704acfa9a56d1939189'), 'white', {renderer: 'canvas'});
+        var option_3cf870837c994704acfa9a56d1939189 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Confirmed",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u7f8e\u56fd",
+            "data": [
+                {
+                    "name": "Alabama",
+                    "value": 649741
+                },
+                {
+                    "name": "Alaska",
+                    "value": 82687
+                },
+                {
+                    "name": "American Samoa",
+                    "value": 0
+                },
+                {
+                    "name": "Arizona",
+                    "value": 976471
+                },
+                {
+                    "name": "Arkansas",
+                    "value": 429100
+                },
+                {
+                    "name": "California",
+                    "value": 4188640
+                },
+                {
+                    "name": "Colorado",
+                    "value": 597281
+                },
+                {
+                    "name": "Connecticut",
+                    "value": 365425
+                },
+                {
+                    "name": "Delaware",
+                    "value": 115665
+                },
+                {
+                    "name": "Diamond Princess",
+                    "value": 49
+                },
+                {
+                    "name": "District of Columbia",
+                    "value": 53162
+                },
+                {
+                    "name": "Florida",
+                    "value": 2920749
+                },
+                {
+                    "name": "Georgia",
+                    "value": 1297503
+                },
+                {
+                    "name": "Grand Princess",
+                    "value": 103
+                },
+                {
+                    "name": "Guam",
+                    "value": 9200
+                },
+                {
+                    "name": "Hawaii",
+                    "value": 53598
+                },
+                {
+                    "name": "Idaho",
+                    "value": 212327
+                },
+                {
+                    "name": "Illinois",
+                    "value": 1477465
+                },
+                {
+                    "name": "Indiana",
+                    "value": 813046
+                },
+                {
+                    "name": "Iowa",
+                    "value": 392970
+                },
+                {
+                    "name": "Kansas",
+                    "value": 351509
+                },
+                {
+                    "name": "Kentucky",
+                    "value": 530573
+                },
+                {
+                    "name": "Louisiana",
+                    "value": 643993
+                },
+                {
+                    "name": "Maine",
+                    "value": 73270
+                },
+                {
+                    "name": "Maryland",
+                    "value": 483641
+                },
+                {
+                    "name": "Massachusetts",
+                    "value": 742202
+                },
+                {
+                    "name": "Michigan",
+                    "value": 1035827
+                },
+                {
+                    "name": "Minnesota",
+                    "value": 631858
+                },
+                {
+                    "name": "Mississippi",
+                    "value": 401201
+                },
+                {
+                    "name": "Missouri",
+                    "value": 737531
+                },
+                {
+                    "name": "Montana",
+                    "value": 121877
+                },
+                {
+                    "name": "Nebraska",
+                    "value": 236346
+                },
+                {
+                    "name": "Nevada",
+                    "value": 377493
+                },
+                {
+                    "name": "New Hampshire",
+                    "value": 104263
+                },
+                {
+                    "name": "New Jersey",
+                    "value": 1067758
+                },
+                {
+                    "name": "New Mexico",
+                    "value": 222927
+                },
+                {
+                    "name": "New York",
+                    "value": 2223052
+                },
+                {
+                    "name": "North Carolina",
+                    "value": 1138263
+                },
+                {
+                    "name": "North Dakota",
+                    "value": 114179
+                },
+                {
+                    "name": "Northern Mariana Islands",
+                    "value": 183
+                },
+                {
+                    "name": "Ohio",
+                    "value": 1171557
+                },
+                {
+                    "name": "Oklahoma",
+                    "value": 521525
+                },
+                {
+                    "name": "Oregon",
+                    "value": 250835
+                },
+                {
+                    "name": "Pennsylvania",
+                    "value": 1265068
+                },
+                {
+                    "name": "Puerto Rico",
+                    "value": 161053
+                },
+                {
+                    "name": "Rhode Island",
+                    "value": 159355
+                },
+                {
+                    "name": "South Carolina",
+                    "value": 676431
+                },
+                {
+                    "name": "South Dakota",
+                    "value": 127993
+                },
+                {
+                    "name": "Tennessee",
+                    "value": 969998
+                },
+                {
+                    "name": "Texas",
+                    "value": 3419098
+                },
+                {
+                    "name": "Utah",
+                    "value": 450539
+                },
+                {
+                    "name": "Vermont",
+                    "value": 26663
+                },
+                {
+                    "name": "Virgin Islands",
+                    "value": 5432
+                },
+                {
+                    "name": "Virginia",
+                    "value": 731287
+                },
+                {
+                    "name": "Washington",
+                    "value": 524670
+                },
+                {
+                    "name": "West Virginia",
+                    "value": 176608
+                },
+                {
+                    "name": "Wisconsin",
+                    "value": 712751
+                },
+                {
+                    "name": "Wyoming",
+                    "value": 70150
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "map",
+            "name": "Deaths",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u7f8e\u56fd",
+            "data": [
+                {
+                    "name": "Alabama",
+                    "value": 11914
+                },
+                {
+                    "name": "Alaska",
+                    "value": 412
+                },
+                {
+                    "name": "American Samoa",
+                    "value": 0
+                },
+                {
+                    "name": "Arizona",
+                    "value": 18508
+                },
+                {
+                    "name": "Arkansas",
+                    "value": 6581
+                },
+                {
+                    "name": "California",
+                    "value": 64920
+                },
+                {
+                    "name": "Colorado",
+                    "value": 7059
+                },
+                {
+                    "name": "Connecticut",
+                    "value": 8330
+                },
+                {
+                    "name": "Delaware",
+                    "value": 1851
+                },
+                {
+                    "name": "Diamond Princess",
+                    "value": 0
+                },
+                {
+                    "name": "District of Columbia",
+                    "value": 1155
+                },
+                {
+                    "name": "Florida",
+                    "value": 40766
+                },
+                {
+                    "name": "Georgia",
+                    "value": 22151
+                },
+                {
+                    "name": "Grand Princess",
+                    "value": 3
+                },
+                {
+                    "name": "Guam",
+                    "value": 144
+                },
+                {
+                    "name": "Hawaii",
+                    "value": 558
+                },
+                {
+                    "name": "Idaho",
+                    "value": 2281
+                },
+                {
+                    "name": "Illinois",
+                    "value": 26132
+                },
+                {
+                    "name": "Indiana",
+                    "value": 14214
+                },
+                {
+                    "name": "Iowa",
+                    "value": 6226
+                },
+                {
+                    "name": "Kansas",
+                    "value": 5400
+                },
+                {
+                    "name": "Kentucky",
+                    "value": 7477
+                },
+                {
+                    "name": "Louisiana",
+                    "value": 11851
+                },
+                {
+                    "name": "Maine",
+                    "value": 921
+                },
+                {
+                    "name": "Maryland",
+                    "value": 9916
+                },
+                {
+                    "name": "Massachusetts",
+                    "value": 18168
+                },
+                {
+                    "name": "Michigan",
+                    "value": 21353
+                },
+                {
+                    "name": "Minnesota",
+                    "value": 7843
+                },
+                {
+                    "name": "Mississippi",
+                    "value": 7937
+                },
+                {
+                    "name": "Missouri",
+                    "value": 10618
+                },
+                {
+                    "name": "Montana",
+                    "value": 1752
+                },
+                {
+                    "name": "Nebraska",
+                    "value": 2302
+                },
+                {
+                    "name": "Nevada",
+                    "value": 6259
+                },
+                {
+                    "name": "New Hampshire",
+                    "value": 1397
+                },
+                {
+                    "name": "New Jersey",
+                    "value": 26731
+                },
+                {
+                    "name": "New Mexico",
+                    "value": 4463
+                },
+                {
+                    "name": "New York",
+                    "value": 53959
+                },
+                {
+                    "name": "North Carolina",
+                    "value": 14005
+                },
+                {
+                    "name": "North Dakota",
+                    "value": 1580
+                },
+                {
+                    "name": "Northern Mariana Islands",
+                    "value": 2
+                },
+                {
+                    "name": "Ohio",
+                    "value": 20648
+                },
+                {
+                    "name": "Oklahoma",
+                    "value": 7676
+                },
+                {
+                    "name": "Oregon",
+                    "value": 2994
+                },
+                {
+                    "name": "Pennsylvania",
+                    "value": 28040
+                },
+                {
+                    "name": "Puerto Rico",
+                    "value": 2715
+                },
+                {
+                    "name": "Rhode Island",
+                    "value": 2752
+                },
+                {
+                    "name": "South Carolina",
+                    "value": 10182
+                },
+                {
+                    "name": "South Dakota",
+                    "value": 2059
+                },
+                {
+                    "name": "Tennessee",
+                    "value": 13089
+                },
+                {
+                    "name": "Texas",
+                    "value": 54863
+                },
+                {
+                    "name": "Utah",
+                    "value": 2563
+                },
+                {
+                    "name": "Vermont",
+                    "value": 268
+                },
+                {
+                    "name": "Virgin Islands",
+                    "value": 44
+                },
+                {
+                    "name": "Virginia",
+                    "value": 11638
+                },
+                {
+                    "name": "Washington",
+                    "value": 6330
+                },
+                {
+                    "name": "West Virginia",
+                    "value": 3001
+                },
+                {
+                    "name": "Wisconsin",
+                    "value": 8356
+                },
+                {
+                    "name": "Wyoming",
+                    "value": 809
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Confirmed",
+                "Deaths"
+            ],
+            "selected": {
+                "Confirmed": true,
+                "Deaths": true
+            },
+            "selectedMode": "single",
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "US Covid Map till today",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 9,
+        "orient": "vertical",
+        "top": "center",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 2000000,
+                "color": "#7f1818"
+            },
+            {
+                "min": 1000000,
+                "max": 1999999
+            },
+            {
+                "min": 500000,
+                "max": 999999
+            },
+            {
+                "min": 100000,
+                "max": 499999
+            },
+            {
+                "min": 50001,
+                "max": 99999
+            },
+            {
+                "min": 10000,
+                "max": 50000
+            },
+            {
+                "min": 4000,
+                "max": 9999
+            },
+            {
+                "min": 1000,
+                "max": 4999
+            },
+            {
+                "min": 0,
+                "max": 999
+            }
+        ]
+    }
+};
+        chart_3cf870837c994704acfa9a56d1939189.setOption(option_3cf870837c994704acfa9a56d1939189);
+    </script>
+</body>
+</html>
