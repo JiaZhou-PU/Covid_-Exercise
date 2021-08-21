@@ -5,7 +5,11 @@ Data Science Exercise with data from [Center for Systems Science and Engineering
 Require  Python3.6+
 
 ```shell
-$ pip install pyecharts requests pandas numpy -U
+$ pip install pyecharts requests pandas numpy datetime wget -U
 
 ```
-    
+### For MacOS
+Use Homebrew to install wget
+```shell
+brew install wget
+```
