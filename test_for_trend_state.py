@@ -25,7 +25,7 @@ date_list = list(data.index)
 for col in data.columns:
   confirm_list = list(data[col])
   line = (
-      Line(init_opts=opts.InitOpts(page_title = "{} trends".format(col),height = "700px",width="1200px"))
+      Line(init_opts=opts.InitOpts(page_title = "{} trends".format(col),height = "700px",width="1400px"))
       .add_xaxis(date_list)
       # avg max min
       .add_yaxis('Confirmed', confirm_list, is_smooth=True,
